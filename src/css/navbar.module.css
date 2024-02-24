@@ -1,0 +1,83 @@
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background: rgba(33, 39, 49, 1);
+    height: 10vh;
+}
+
+.parent {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    background: white;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 8px;
+
+    svg {
+        margin-left: 2%;
+        cursor: pointer;
+    }
+}
+
+.searchInput {
+    border: none;
+    outline: none;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 8px;
+    font-size: large;
+
+}
+
+.categories {
+
+    font-family: Inter;
+    cursor: pointer;
+
+    p {
+        color: rgba(209, 214, 218, 1);
+
+    }
+
+    p:hover {
+        text-decoration: underline;
+    }
+}
+
+.websiteBuilders {
+    font-family: Inter;
+    cursor: pointer;
+
+    p {
+        color: rgba(209, 214, 218, 1);
+
+    }
+
+    p:hover {
+        text-decoration: underline;
+    }
+}
+
+.todaysdeals {
+    font-family: Inter;
+    cursor: pointer;
+
+    p {
+        color: rgba(209, 214, 218, 1);
+        ;
+    }
+
+    p:hover {
+        text-decoration: underline;
+    }
+}

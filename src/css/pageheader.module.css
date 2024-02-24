@@ -1,0 +1,112 @@
+.pageHeaderContainer {
+    display: flex;
+    justify-content: center;
+    /* margin: 3% 0 0 12%; */
+}
+
+.pageHeader {
+    width: 80vw;
+}
+
+.header {
+    margin-top: 5%;
+
+
+    h1 {
+        font-size: 400%;
+        font-weight: 400;
+        color: rgba(44, 56, 74, 1);
+
+    }
+}
+
+.horizontalRule {
+    height: 0.2vh;
+    background: rgba(225, 228, 230, 1);
+}
+
+.lastUpdatedContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% 0 2% 0;
+
+
+    .leftPartOfUpdatedContainer {
+        display: flex;
+        align-items: center;
+
+        width: 40vw;
+
+        p {
+            margin: 0% 0 0% 1%;
+            color: rgba(75, 86, 101, 1);
+        }
+
+        .monthAndYear {
+            margin-left: 0%;
+        }
+
+        svg {
+            margin: 0% 0 0% 2%;
+
+        }
+
+        .rightMarkSvg {
+            margin-left: 0;
+        }
+
+        .lastUpdated {
+            margin-left: 1%;
+        }
+    }
+
+    .rightPartOfUpdatedContainer {
+        select {
+            cursor: pointer;
+            border: none;
+            outline: none;
+        }
+    }
+}
+
+
+
+.buildingAssistantTools {
+    width: 60vw;
+    margin: 2% 0 2% 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(75, 86, 101, 1);
+
+    p {
+        cursor: pointer;
+
+    }
+
+    p:hover {
+        text-decoration: underline;
+    }
+}
+
+
+.breadCrumbs {
+    margin: 2% 0 2% 0;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    p {
+        cursor: pointer;
+        color: rgba(92, 104, 116, 1);
+    }
+    p:hover{
+        text-decoration: underline;
+    }
+
+    .rightArrowMark {
+        font-weight: 900;
+    }
+}
