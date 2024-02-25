@@ -1,0 +1,246 @@
+.buildercardParentContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+
+
+.builderCardParent {
+
+    width: 80vw;
+}
+
+.buildCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40vh;
+    display: flex;
+}
+
+.buildCard2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    display: flex;
+}
+
+
+.bestChoiceAndValue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0 8px 8px 0;
+    width: 12vw;
+    height: 7vh;
+    background: rgba(255, 119, 36, 1);
+    color: white;
+    margin-left: 2%;
+}
+
+.seriolNumber {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    padding-bottom: 12%;
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3vw;
+        height: 3vw;
+        border: 1px solid rgba(225, 228, 230, 1);
+        border-radius: 50%;
+    }
+
+    p {
+
+        color: rgba(98, 110, 121, 1);
+    }
+}
+
+.computerImgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        margin-top: 10%;
+        color: rgba(98, 110, 121, 1);
+    }
+}
+
+.abutBuilderAndMainHighligths {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35vw;
+    margin-top: 5%;
+    font-size: large;
+
+    .aboutBuilder {
+
+        p {
+            color: rgba(75, 86, 101, 1);
+
+            h4 {
+                display: inline-block;
+                color: rgba(75, 86, 101, 1);
+            }
+        }
+
+        margin-bottom: 2%;
+    }
+
+    .mainHighlights {
+        /* height: 10vh; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        p {
+            margin-left: 4%;
+            margin-top: 5%;
+            color: rgba(75, 86, 101, 1);
+        }
+
+        h4 {
+            color: rgba(44, 56, 74, 1);
+            color: rgba(44, 56, 74, 1);
+        }
+    }
+
+    .showMore {
+        margin-top: 4%;
+
+        select {
+            border: none;
+            outline: none;
+            color: rgba(27, 136, 244, 1);
+            background: white;
+            font-size: large;
+        }
+    }
+}
+
+.ratingsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+
+    .ratings {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 12vh;
+        background: rgba(243, 249, 255, 1);
+
+        h1 {
+            color: rgba(7, 71, 134, 1);
+            font-weight: 400;
+        }
+
+        p {
+            color: rgba(7, 71, 134, 1);
+            font-weight: 400;
+        }
+    }
+
+    .viewButton {
+        background: rgba(27, 136, 244, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15vw;
+        height: 7vh;
+        border-radius: 12px;
+
+        button {
+            font-size: large;
+            color: white;
+            background: initial;
+            border: none;
+            outline: none;
+        }
+    }
+}
+
+.percentageOff {
+    background: rgba(242, 244, 247, 1);
+    color: rgba(7, 71, 134, 1);
+    width: 5vw;
+    border-radius: 4px;
+    margin-bottom: 2%;
+}
+
+.mainHighlightsInnerContainer {
+    background: rgba(255, 244, 237, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 15vh;
+    margin-left: 5%;
+    border-radius: 12px;
+    margin-top: 2%;
+}
+
+.buildingResponsive,
+.cool,
+.docs {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    margin-left: 6%;
+}
+
+.buildingResponsiveRating,
+.coolRating,
+.docsRating {
+    width: 3vw;
+    height: 3vh;
+    display: flex;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    margin-right: 7%;
+    color: rgba(27, 136, 244, 1);
+}
+
+.buildingResponsiveText,
+.coolText,
+.docsText {
+    color: rgba(75, 86, 101, 1);
+}
+
+.whyWeLoveItHeader {
+    margin-top: 2%;
+
+    h4 {
+        font-weight: 400;
+        color: rgba(44, 56, 74, 1);
+    }
+}
+
+.whyWeLoveItInnerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 15vh;
+
+    div {
+        color: rgba(75, 86, 101, 1);
+        display: flex;
+        align-items: center;
+
+        svg {
+            margin-right: 3%;
+        }
+    }
+
+}
