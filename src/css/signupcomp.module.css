@@ -1,0 +1,39 @@
+.signupCompParentContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.signupContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+}
+
+.signupMsg {
+  color: rgba(92, 104, 116, 1);
+  width: 27vw;
+
+  h1 {
+    font-weight: 400;
+  }
+}
+
+.sginupInputBtn {
+  input {
+    border-radius: 12px 0 0 12px;
+    height: 5vh;
+    border: none;
+    background: rgba(242, 244, 247, 1);
+  }
+
+  button {
+    border-radius: 0 12px 12px 0;
+    background: rgba(27, 136, 244, 1);
+    color: white;
+    height: 5vh;
+    border: none;
+    outline: none;
+  }
+}

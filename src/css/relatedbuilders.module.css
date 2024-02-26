@@ -1,0 +1,90 @@
+.relatedBuilder {
+    width: 80vw;
+}
+
+.relatedBuilderCardParent {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.pecentageOfLimitedTime {
+    display: flex;
+
+    div {
+        background: rgba(242, 244, 247, 1);
+        margin-left: 2%;
+        margin-top: 5%;
+        border-radius: 8px;
+        /* width: 5vw; */
+        height: 4vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            color: rgba(7, 71, 134, 1);
+            /* margin: 2%; */
+        }
+    }
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.webBuilder {
+    /* width: 16vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(159, 169, 179, 1);
+}
+
+.para {
+    color: rgba(98, 110, 121, 1);
+    /* width: 16vw;  */
+}
+
+.money {
+    display: flex;
+    width: 12vw;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 5%;
+
+    .dollar {
+        color: rgba(98, 110, 121, 1);
+    }
+
+    .originalPrice {
+        color: rgba(159, 169, 179, 1);
+        font-size: small;
+    }
+
+    .perentageDifference {
+        color: rgba(239, 76, 93, 1);
+        font-size: x-small;
+    }
+}
+
+.button {
+    background: rgba(27, 136, 244, 1);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+    button {
+        border: none;
+        outline: none;
+        background: rgba(27, 136, 244, 1);
+        color: white;
+    }
+
+    height: 5vh;
+}

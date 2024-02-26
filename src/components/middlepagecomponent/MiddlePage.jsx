@@ -1,5 +1,7 @@
 import React from "react";
 import BuilderCard from "../BuilderCard";
+import RelatedDeals from "../related_dealscomp/RelatedDeals";
+import SignupComp from "../SignupComp";
 function MiddlePage() {
   const array1 = [
     "Builder 1",
@@ -40,6 +42,8 @@ function MiddlePage() {
       <BuilderCard values={array2} />
       <BuilderCard values={array3} />
       <BuilderCard />
+      <RelatedDeals/>
+      <SignupComp/>
     </div>
   );
 }

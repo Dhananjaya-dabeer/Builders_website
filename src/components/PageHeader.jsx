@@ -102,15 +102,14 @@ function PageHeader() {
         <div className={styles.breadCrumbsContainer}>
           <div className={styles.breadCrumbs}>
             <p>Home</p>
-            <p className={styles.rightArrowMark} >&gt;</p>
+            <p className={styles.rightArrowMark}>&gt;</p>
             <p>Hosting for all</p>
-            <p className={styles.rightArrowMark} >&gt;</p>
+            <p className={styles.rightArrowMark}>&gt;</p>
             <p>Hosting</p>
-            <p className={styles.rightArrowMark} >&gt;</p>
+            <p className={styles.rightArrowMark}>&gt;</p>
             <p>Hosting 6</p>
-            <p className={styles.rightArrowMark} >&gt;</p>
+            <p className={styles.rightArrowMark}>&gt;</p>
             <p>Hosting 5</p>
-            <p className={styles.rightArrowMark} >&gt;</p>
           </div>
           <div className={styles.horizontalRule}></div>
         </div>

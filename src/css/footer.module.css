@@ -1,0 +1,60 @@
+.FooterComp {
+    margin-top: 3%;
+    background: rgba(33, 39, 49, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.FooterCompInnerContainer {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoriesContainer {
+    display: flex;
+    flex-direction: column;
+
+    .categories {
+        color: white;
+        font-size: medium;
+    }
+
+    div {
+        color: rgba(182, 189, 196, 1);
+        font-size: small;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+}
+
+.contactContainer {
+    .contact {
+        font-size: medium;
+        color: white;
+    }
+
+    div {
+        cursor: pointer;
+        color: rgba(182, 189, 196, 1);
+        font-size: small;
+        margin-top: 10%;
+    }
+}
+
+.unitedStates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    select {
+        background: inherit;
+        outline: none;
+        border: none;
+        color: rgba(209, 214, 218, 1);
+        font-size: small;
+    }
+}
