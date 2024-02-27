@@ -11,6 +11,10 @@
     width: 80vw;
 }
 
+.builderCardParent2 {
+    width: 80vw;
+}
+
 .buildCard {
     display: flex;
     justify-content: space-between;
@@ -241,6 +245,178 @@
         svg {
             margin-right: 3%;
         }
+    }
+
+}
+
+.responsiveinfoAndRatingContainer {
+    display: flex;
+}
+
+@media screen and (min-width: 300px) and (max-width : 900px) {
+    .bestChoiceAndValue {
+        width: 20vw;
+        height: 5vh;
+        font-size: 2.3vw;
+
+        img {
+            width: 4vw;
+        }
+    }
+
+    .buildCard {
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column;
+        align-items: center;
+        height: 50vh;
+        display: flex;
+    }
+
+    .buildCard2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 90vh;
+        display: flex;
+    }
+
+    .seriolNumber {
+        /* height: 1vh; */
+        margin-right: 90%;
+        margin-top: 5%;
+        padding-bottom: 0%;
+
+    }
+
+    .computerImgContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        p {
+            margin-top: 10%;
+            color: rgba(98, 110, 121, 1);
+        }
+    }
+
+    .abutBuilderAndMainHighligths {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80vw;
+        /* height: 10vh; */
+        margin-top: 5%;
+        /* margin-bottom: 5%; */
+        font-size: small;
+
+        .aboutBuilder {
+
+            p {
+                color: rgba(75, 86, 101, 1);
+
+                h4 {
+                    display: inline-block;
+                    color: rgba(75, 86, 101, 1);
+                }
+            }
+
+            margin-bottom: 2%;
+        }
+
+        .mainHighlights {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            p {
+                margin-left: 4%;
+                margin-top: 1%;
+                color: rgba(75, 86, 101, 1);
+            }
+
+            h4 {
+                color: rgba(44, 56, 74, 1);
+                color: rgba(44, 56, 74, 1);
+            }
+        }
+
+        .showMore {
+            margin-top: 0%;
+
+            select {
+                border: none;
+                outline: none;
+                color: rgba(27, 136, 244, 1);
+                background: white;
+                font-size: large;
+            }
+        }
+    }
+
+    .ratingsContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: inherit;
+
+        .ratings {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 12vh;
+            background: rgba(243, 249, 255, 1);
+            font-size: small;
+
+            h1 {
+                color: rgba(7, 71, 134, 1);
+                font-weight: 400;
+                font-size: medium;
+            }
+
+            p {
+                color: rgba(7, 71, 134, 1);
+                font-weight: 400;
+                font-size: x-small;
+            }
+        }
+
+        .viewButton {
+            background: rgba(27, 136, 244, 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20vw;
+            height: 4vh;
+            border-radius: 12px;
+
+            button {
+                font-size: small;
+                color: white;
+                background: initial;
+                border: none;
+                outline: none;
+            }
+        }
+    }
+
+    .builderCardParent {
+        height: 65vh;
+        width: 80vw;
+    }
+
+    .builderCardParent2 {
+        height: 90vh;
+        width: 80vw;
+    }
+
+    .responsiveinfoAndRatingContainer {
+        width: 80vw;
     }
 
 }

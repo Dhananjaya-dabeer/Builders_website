@@ -24,7 +24,8 @@ function BuilderCard({ values }) {
               />
               <p>{values[0]}</p>
             </div>
-            <div className={styles.abutBuilderAndMainHighligths}>
+          <div className={styles.responsiveinfoAndRatingContainer}>
+          <div className={styles.abutBuilderAndMainHighligths}>
               <div className={styles.aboutBuilder}>
                 <p>
                   <h4>{values[1]}</h4> {values[2]}
@@ -91,6 +92,7 @@ function BuilderCard({ values }) {
               </div>
             </div>
           </div>
+          </div>
         </div>
       </div>
     );
@@ -98,7 +100,7 @@ function BuilderCard({ values }) {
     return (
       <>
         <div className={styles.buildercardParentContainer}>
-          <div className={styles.builderCardParent}>
+          <div className={styles.builderCardParent2}>
             <div className={styles.buildCard2}>
               <div className={styles.seriolNumber}>
                 <div>
@@ -112,7 +114,8 @@ function BuilderCard({ values }) {
                 />
                 <p>CDK</p>
               </div>
-              <div className={styles.abutBuilderAndMainHighligths}>
+             <div className={styles.responsiveinfoAndRatingContainer} >
+             <div className={styles.abutBuilderAndMainHighligths}>
                 <div className={styles.aboutBuilder}>
                   <p>
                     <h4>CDK Resposive Builder:</h4> An extensive library of
@@ -280,6 +283,7 @@ function BuilderCard({ values }) {
                   <button>View</button>
                 </div>
               </div>
+             </div>
             </div>
           </div>
         </div>

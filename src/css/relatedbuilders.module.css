@@ -1,5 +1,7 @@
 .relatedBuilder {
     width: 80vw;
+    display: flex;
+    justify-content: center;
 }
 
 .relatedBuilderCardParent {
@@ -87,4 +89,11 @@
     }
 
     height: 5vh;
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+    .relatedBuilderCardParent {
+        width: auto;
+
+    }
 }
